@@ -188,11 +188,11 @@ body {
     background-color: #fff2e5;
 }
 
-.product1 {
+.producto-1 {
     text-align: center; 
 }
 
-.product1 .pro {
+.producto-1 .pro {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
@@ -202,33 +202,46 @@ body {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
     transition: 0.2s ease;
+
 }
 
-.product1 .pro img {
+.producto-1 .pro img {
     width: 100%;
     border-radius: 20px;
 }
 
-.product1 .pro:hover {
+.producto-1 .pro:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-.product1 .pro .des {
+.producto-1 .pro .des {
     text-align: start;
     padding: 10px 0;
 }
 
-.product1 .pro .des span {
+.producto-1 .pro .des span {
     color: gray;
     font-size: 12px;
 }
 
-.product1 .pro .des h5 {
+.producto-1 .pro .des h5 {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
+
 }
 
+.producto-1 .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+
+}
+
+.producto-1 .pro .des .shopping-cart {
+    align-items: center;
+}
 .pro-container {
     display: grid;
     grid-template-columns: repeat(4, auto);
