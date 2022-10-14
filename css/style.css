@@ -346,7 +346,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url(../img/banner/b17.jpg);
-    min-width: 700px;
+    min-width: 800px;
     height: 50vh;
     background-size: cover;
     background-position: center;  
@@ -418,5 +418,17 @@ background-image: url(../img/banner/b4.jpg);
 
 .banner3 h3 {
     color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
 }
 
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(../img/banner/b14.png) ;
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    background-color: #041e42;
+}
