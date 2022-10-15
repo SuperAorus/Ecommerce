@@ -42,6 +42,7 @@ p {
 .section-m1 {
     margin: 40px 0;
 }
+
 button.normal {
     font-size: 14px;
     font-weight: 600;
@@ -127,7 +128,7 @@ body {
 /* home */
 
 .hero {
-    background-image: url(../img/hero4.webp);
+    background-image: url(../img/hro4.webp); 
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -137,14 +138,32 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
 }
+
+.hero-box {
+    padding: 15px;
+    background-color: rgb( 0 0 0 / 70% );
+    border-radius: 25px;
+}
+
 
 .hero h1 {
     color: #088178  ;
 }
 
+.hero h2{
+    color: #fff;
+}
+
 .hero h4 {
     padding-bottom: 15px;
+    color: #fff;
+}
+
+.hero p {
+    color: #FAF7F0;
+    font-weight: bold;
 }
 
 .hero button{
@@ -168,6 +187,7 @@ body {
 }
 .feature .fe-box {
     width: 180px;
+    height: 200px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba( 0, 0, 0, 0.03);
@@ -177,14 +197,18 @@ body {
     background-color: #FAF7F0;
 }
 
+
+
 .feature .fe-box:hover {
     box-shadow: 10px 10px 54px rgba( 70, 62, 221, 0.1);
 }
 
 .feature .fe-box img {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
+
+
 .feature .fe-box h6 {
     display: inline-block;
     padding: 9px 8px 6px 8px;
@@ -192,6 +216,7 @@ body {
     border-radius: 4px;
     color: #088178;
     background-color: #fddde4;
+    margin-top: 10px;
 }
 
 .feature .fe-box:nth-child(2) h6{
