@@ -69,6 +69,7 @@ button.white {
 
 body {
     width: 100%;
+    background-color: #FFF5E4;
 }
 
 /* header */
@@ -84,6 +85,7 @@ body {
     position: sticky; 
     top: 0;
     left: 0;
+    background-color: #FFF5E4;
 }
 
 .nav-bar {
@@ -173,6 +175,7 @@ body {
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
+    background-color: #fff;
 }
 
 .feature .fe-box:hover {
@@ -227,6 +230,8 @@ body {
     margin: 15px 0;
     transition: 0.2s ease;
     position: relative;
+    background-color: #fff;
+
 }
 
 
@@ -476,3 +481,7 @@ background-image: url(../img/banner/b4.jpg);
 }
 
 
+.icon a {
+    text-decoration: none;
+    padding: 5px;
+}
