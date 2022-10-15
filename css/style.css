@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -35,7 +34,7 @@ p {
 }
 
 .section-p1 {
-    padding: 40px 80px ;
+    padding: 40px 80px;
 }
 
 .section-m1 {
@@ -70,6 +69,7 @@ button.white {
 body {
     width: 100%;
     background-color: #FAEEE0;
+    font-family: 'League Spartan', sans-serif;
 }
 
 /* header */
@@ -294,12 +294,6 @@ body {
     position: relative;
 
 }
-/**
-.pro-container {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-
-}**/
 
 .producto-1 .pro-container {
     display: flex;
@@ -435,19 +429,19 @@ background-image: url(../img/banner/b4\ Medium.jpeg);
 .newsletter {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    background-image: url(../img/banner/b14\ Medium.jpeg) ;
+    align-items: center;
+    background-image: url(../img/banner/b14.png) ;
     background-repeat: no-repeat;
     background-position: 20px 30px;
     background-color: #041e42;
 }
 
 .newsletter  h4 {
-    font-size: 22px;
+    font-size: 22   px;
     font-weight: 700;
-    color: #fff;
 }
+
 
 .newsletter  p {
     font-size: 14px;
