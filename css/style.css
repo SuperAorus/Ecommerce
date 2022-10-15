@@ -314,7 +314,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../img/banner/b2.jpg);
+    background-image: url(../img/banner/b2\ Medium.jpeg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -355,7 +355,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(../img/banner/b17.jpg);
+    background-image: url(../img/banner/b17\ Medium.jpeg);
     min-width: 800px;
     height: 50vh;
     background-size: cover;
@@ -364,7 +364,7 @@ body {
 }
 
 .sm-banner .banner-box2{
-    background-image: url(../img/banner/b10.jpg);
+    background-image: url(../img/banner/b10\ Medium.jpeg);
 }
 
 .sm-banner h4 {
@@ -403,7 +403,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(../img/banner/b7.jpg);
+    background-image: url(../img/banner/b7\ Medium.jpeg);
     min-width: 32%;
     height: 30vh;
     background-size: cover;
@@ -413,11 +413,11 @@ body {
 }
 
 .banner3 .banner-box2 {
-background-image: url(../img/banner/b4.jpg);
+background-image: url(../img/banner/b4\ Medium.jpeg);
 }
 
 .banner3 .banner-box3 {
-    background-image: url(../img/banner/b18.jpg);
+    background-image: url(../img/banner/b18\ Medium.jpeg);
 }
 
 .banner3 h2 {
@@ -437,7 +437,7 @@ background-image: url(../img/banner/b4.jpg);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(../img/banner/b14.png) ;
+    background-image: url(../img/banner/b14\ Medium.jpeg) ;
     background-repeat: no-repeat;
     background-position: 20px 30px;
     background-color: #041e42;
