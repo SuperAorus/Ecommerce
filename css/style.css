@@ -69,6 +69,7 @@ button.white {
 
 body {
     width: 100%;
+    background-color: #FAF7F0;
 }
 
 /* header */
@@ -78,7 +79,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px  ;
-    background-color: #e3e6f3;
+    background-color: #FAF7F0;
     box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.06);
     z-index: 999;
     position: sticky; 
@@ -173,7 +174,7 @@ body {
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
-    background-color: #fff;
+    background-color: #FAF7F0;
 }
 
 .feature .fe-box:hover {
