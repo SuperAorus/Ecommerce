@@ -69,7 +69,7 @@ button.white {
 
 body {
     width: 100%;
-    background-color: #FFF5E4;
+    
 }
 
 /* header */
@@ -85,7 +85,6 @@ body {
     position: sticky; 
     top: 0;
     left: 0;
-    background-color: #FFF5E4;
 }
 
 .nav-bar {
