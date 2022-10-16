@@ -716,6 +716,12 @@ footer h4{
         margin-bottom: 20px;
     }
 
+    footer .col a {
+        text-decoration: none;
+        color: #465b52;
+        margin-bottom: 20px;
+    }
+
 
 
  }
