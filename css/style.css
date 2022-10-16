@@ -34,7 +34,7 @@ p {
 }
 @media (min-width: 768px) { 
     .section-p1 {
-        padding: 40px 80px;
+        padding: 30px 70px;
     }
     
     .section-m1 {
@@ -349,11 +349,11 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url(../img/banner/b17\ Medium.jpeg);
-    min-width: 48%;
+    min-width: 49%;
     height: 50vh;
     background-size: cover;
     background-position: center;  
-    padding: 30px;
+    padding: 10px;
 }
 
 .sm-banner .banner-box2{
@@ -388,8 +388,6 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 80px;
-
 }
 .banner3 .banner-box{
     display: flex;
@@ -397,11 +395,11 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url(../img/banner/b7\ Medium.jpeg);
-    min-width: 33%;
+    width: 33%;
     height: 30vh;
     background-size: cover;
     background-position: center;  
-    padding: 20px;
+    padding: 5px;
     margin-bottom: 20px;
 }
 
@@ -581,8 +579,9 @@ footer h4{
     #feature {
         display: grid;
         grid-template-columns: repeat(2, auto);
+
         gap: 2rem;
-        padding: 40px 40px;
+        padding: 40px 70px;
     }
     #feature .fe-box {
         width: 120px;
@@ -607,12 +606,23 @@ footer h4{
     }
 
     #producto-1 {
+        display: grid;
         padding: 40px 80px;
+
+    }
+
+    
+    #producto-1 .pro {
+        width: 40%;
+        min-width: 250px;
+        border: 1px solid #cce7d0;
+        background-color: #FAF7F0;
+
     }
 
     .sm-banner  {
         display: flex;
-        padding: 20px;
+        padding: 10px;
         margin-bottom: 20px;
     }
     
@@ -627,6 +637,7 @@ footer h4{
         background-size: cover;
         background-position: center;
         margin-bottom: 20px;
+        border-radius: 10px;
         
 
     }
@@ -638,7 +649,7 @@ footer h4{
     .banner3 {
         display: flex;
         flex-direction: column; 
-        padding: 20px;
+        padding: 10px;
         margin-bottom: 20px;
     
     }
@@ -652,6 +663,7 @@ footer h4{
         height: 30vh;
         background-size: cover;
         background-position: center;  
+        border-radius: 10px;
 
     }
     
@@ -679,6 +691,8 @@ footer h4{
         padding: 20px;
         margin-bottom: 20px;
     }
+
+
 
  }
 
