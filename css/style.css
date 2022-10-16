@@ -32,14 +32,16 @@ p {
     color: #465b52;
     margin: 15px 0 20px 0;
 }
-
-.section-p1 {
-    padding: 40px 80px;
+@media (min-width: 768px) { 
+    .section-p1 {
+        padding: 40px 80px;
+    }
+    
+    .section-m1 {
+        margin: 40px 0;
+    } 
 }
 
-.section-m1 {
-    margin: 40px 0;
-}
 
 button.normal {
     font-size: 14px;
@@ -580,6 +582,7 @@ footer h4{
         display: grid;
         grid-template-columns: repeat(2, auto);
         gap: 2rem;
+        padding: 40px 40px;
     }
     #feature .fe-box {
         width: 120px;
@@ -603,10 +606,14 @@ footer h4{
         margin-top: 20px;
     }
 
-    .sm-banner {
-        display: flex;
-        flex-direction: column;
+    #producto-1 {
+        padding: 40px 80px;
+    }
 
+    .sm-banner  {
+        display: flex;
+        padding: 20px;
+        margin-bottom: 20px;
     }
     
     .sm-banner .banner-box{
@@ -620,6 +627,7 @@ footer h4{
         background-size: cover;
         background-position: center;
         margin-bottom: 20px;
+        
 
     }
 
@@ -629,8 +637,9 @@ footer h4{
 
     .banner3 {
         display: flex;
-        flex-direction: column;
-        padding: 80px;
+        flex-direction: column; 
+        padding: 20px;
+        margin-bottom: 20px;
     
     }
     .banner3 .banner-box{
@@ -643,8 +652,7 @@ footer h4{
         height: 30vh;
         background-size: cover;
         background-position: center;  
-        padding: 20px;
-        margin-bottom: 20px;
+
     }
     
     .banner3 .banner-box2 {
@@ -655,10 +663,20 @@ footer h4{
         background-image: url(../img/banner/b18\ Medium.jpeg);
     }
 
+    .newsletter {
+         margin: 40px 0; 
+        padding: 40px 80px;
+    }
+
     .newsletter .form {
         display: flex;
         width: 100%;
         
+    }
+
+    footer {
+        padding: 20px;
+        margin-bottom: 20px;
     }
 
  }
