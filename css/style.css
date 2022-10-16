@@ -267,7 +267,13 @@ body {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
+}
 
+
+
+#producto-1 .pro .des {
+    font-size: 12px;
+    color: rgb(228, 170, 24);
 }
 
 #producto-1 .pro .des h4 {
@@ -275,10 +281,9 @@ body {
     font-size: 15px;
     font-weight: 700;
     color: #088178;
-
 }
 
-#producto-1 .pro .cart {
+#producto-1 .pro a {
     width: 40px;
     height: 40px;
     line-height: 40px;
