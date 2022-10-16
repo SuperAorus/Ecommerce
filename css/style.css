@@ -70,7 +70,7 @@ button.white {
 
 body {
     width: 100%;
-    background-color: #E4DCCF;
+    background-color: #E4DCCF;  /*  #E4DCCF  */
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -81,7 +81,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 80px  ;
-    background-color: #E4DCCF;
+    background-color: #E4DCCF; /* #E4DCCF */
     box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.06);
     z-index: 999;
     position: sticky; 
@@ -179,7 +179,7 @@ body {
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
-    background-color: #FAF7F0;
+    background-color: #FAF7F0; /* #FAF7F0 */
 }
 
 
@@ -190,7 +190,7 @@ body {
 
 #feature .fe-box img {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
 }
 
 
@@ -200,7 +200,7 @@ body {
     line-height: 1;
     border-radius: 4px;
     color: #088178;
-    background-color: #fddde4;
+    background-color: #fddde4; 
     margin-top: 10px;
 }
 
@@ -239,7 +239,7 @@ body {
     margin: 15px 0;
     transition: 0.2s ease;
     position: relative;
-    background-color: #FAF7F0;
+    background-color: #FAF7F0;  /* FAF7F0*/
 
 }
 
@@ -613,7 +613,7 @@ footer h4{
         border: 1px solid #cce7d0;
         border-radius: 10px;
         margin: 15px 0;
-        background-color: #FAF7F0;
+        background-color: #FAF7F0;  
         box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
     }
 
@@ -638,7 +638,6 @@ footer h4{
 
         min-width: 250px;
         border: 1px solid #cce7d0;
-        background-color: #FAF7F0;
         box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
 
     }
