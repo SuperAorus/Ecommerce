@@ -177,7 +177,7 @@ body {
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba( 0, 0, 0, 0.03);
     border: 1px solid #cce7d0;
-    border-radius: 4px;
+    border-radius: 10px;
     margin: 15px 0;
     background-color: #FAF7F0; /* #FAF7F0 */
 }
@@ -198,12 +198,12 @@ body {
     display: inline-block;
     padding: 9px 8px 6px 8px;
     line-height: 1;
-    border-radius: 4px;
-    color: #088178;
-    background-color: #fddde4; 
+
+    color: #000;
+    font-size: 15px;
     margin-top: 10px;
 }
-
+/*
 #feature .fe-box:nth-child(2) h6{
     background-color: #cdebbc;
 }
@@ -223,7 +223,7 @@ body {
 #feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
 }
-
+*/
 #producto-1 {
     text-align: center; 
 }
@@ -622,9 +622,10 @@ footer h4{
         padding: 9px 8px 6px 8px;
         line-height: 1;
         border-radius: 4px;
-        color: #088178;
-        background-color: #fddde4;
+        color: #000;
         margin-top: 20px;
+        font-size: 12px;
+        font-weight: 700;
     }
 
     #producto-1 {
