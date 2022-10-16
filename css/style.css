@@ -594,7 +594,7 @@ footer h4{
         grid-template-columns: repeat(2, auto);
 
         gap: 2rem;
-        padding: 40px 70px;
+        padding: 40px 40px;
     }
     #feature .fe-box {
         width: 120px;
@@ -620,7 +620,7 @@ footer h4{
 
     #producto-1 {
         display: grid;
-        padding: 40px 80px;
+        padding: 40px 70px;
 
     }
 
