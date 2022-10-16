@@ -124,14 +124,11 @@ body {
     left: 20px;
 }
 
-#mobile {
-    display: none;
-    align-items: center;
-}
+
 
 /* home */
 
-.hero {
+#hero {
     background-image: url(../img/hero4.jpeg);
     height: 90vh;
     width: 100%;
@@ -144,15 +141,15 @@ body {
     justify-content: center;
 }
 
-.hero h1 {
+#hero h1 {
     color: #088178  ;
 }
 
-.hero h4 {
+#hero h4 {
     padding-bottom: 15px;
 }
 
-.hero button{
+#hero button{
     background-image: url(../img/button.png);
     background-color: transparent;
     color: #088178;
@@ -164,14 +161,14 @@ body {
     font-size: 15px;
 }
 
-.feature {
+#feature {
     display: flex; 
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
-.feature .fe-box {
+#feature .fe-box {
     width: 180px;
     height: 200px;
     text-align: center;
@@ -185,17 +182,17 @@ body {
 
 
 
-.feature .fe-box:hover {
+#feature .fe-box:hover {
     box-shadow: 10px 10px 54px rgba( 70, 62, 221, 0.1);
 }
 
-.feature .fe-box img {
+#feature .fe-box img {
     width: 100%;
     margin-bottom: 15px;
 }
 
 
-.feature .fe-box h6 {
+#feature .fe-box h6 {
     display: inline-block;
     padding: 9px 8px 6px 8px;
     line-height: 1;
@@ -205,31 +202,31 @@ body {
     margin-top: 10px;
 }
 
-.feature .fe-box:nth-child(2) h6{
+#feature .fe-box:nth-child(2) h6{
     background-color: #cdebbc;
 }
 
-.feature .fe-box:nth-child(3) h6{
+#feature .fe-box:nth-child(3) h6{
     background-color: #d1e8f2;
 }
 
-.feature .fe-box:nth-child(4) h6{
+#feature .fe-box:nth-child(4) h6{
     background-color: #cdd4f8;
 }
 
-.feature .fe-box:nth-child(5) h6{
+#feature .fe-box:nth-child(5) h6{
     background-color: #f6dbf6;
 }
 
-.feature .fe-box:nth-child(6) h6{
+#feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
 }
 
-.producto-1 {
+#producto-1 {
     text-align: center; 
 }
 
-.producto-1 .pro {
+#producto-1 .pro {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
@@ -245,33 +242,33 @@ body {
 }
 
 
-.producto-1 .pro img {
+#producto-1 .pro img {
     width: 100%;
     border-radius: 20px;
 }
 
-.producto-1 .pro:hover {
+#producto-1 .pro:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-.producto-1 .pro .des {
+#producto-1 .pro .des {
     text-align: start;
     padding: 10px 0;
 }
 
-.producto-1 .pro .des span {
+#producto-1 .pro .des span {
     color: gray;
     font-size: 12px;
 }
 
-.producto-1 .pro .des h5 {
+#producto-1 .pro .des h5 {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
 
 }
 
-.producto-1 .pro .des h4 {
+#producto-1 .pro .des h4 {
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
@@ -279,7 +276,7 @@ body {
 
 }
 
-.producto-1 .pro .cart {
+#producto-1 .pro .cart {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -293,14 +290,9 @@ body {
     right: 10px;
 }
 
-.cart svg {
-    top: 5px;
-    left: 8px;
-    position: relative;
 
-}
 
-.producto-1 .pro-container {
+#producto-1 .pro-container {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -562,38 +554,112 @@ footer h4{
  /* Media querys */
 
  @media (max-width: 767px) { 
+
      #navbar {
+        display: grid;
+     }
+
+     #navbar li {
+        margin: 4px 0 4px 0;
+        text-decoration: none;
+    }
+    
+    #hero {
+        background-image: url(../img/hero4.jpeg);
+        height: 90vh;
+        width: 100%;
+        background-size: cover;
+        padding: 0 8px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;
-        background-color: #DBD0C0;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
+        justify-content: center;
+    }
 
-     }
+    #feature {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 2rem;
+    }
+    #feature .fe-box {
+        width: 120px;
+        height: 120px;
+        text-align: center;
+        padding: 25px 15px;
+        box-shadow: 20px 20px 34px rgba( 0, 0, 0, 0.03);
+        border: 1px solid #cce7d0;
+        border-radius: 4px;
+        margin: 15px 0;
+        background-color: #FAF7F0;
+    }
 
-     #navbar.active {
-        right: 0px;
-     }
-     
-     #navbar li {  
-        margin-bottom: 25px;
-     }
+    #feature .fe-box h6 {
+        display: inline-block;
+        padding: 9px 8px 6px 8px;
+        line-height: 1;
+        border-radius: 4px;
+        color: #088178;
+        background-color: #fddde4;
+        margin-top: 20px;
+    }
 
-     #mobile {
+    .sm-banner {
         display: flex;
-        align-items: center;
-     }
+        flex-direction: column;
 
-     #mobile i{
-        color: #1a1a1a;
-        font-size: 24px;
-        padding-left: 20px;
-     }
+    }
+    
+    .sm-banner .banner-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url(../img/banner/b17\ Medium.jpeg);
+        width: 100%;
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 20px;
+
+    }
+
+    .sm-banner .banner-box2{
+        background-image: url(../img/banner/b10\ Medium.jpeg);
+    }
+
+    .banner3 {
+        display: flex;
+        flex-direction: column;
+        padding: 80px;
+    
+    }
+    .banner3 .banner-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url(../img/banner/b7\ Medium.jpeg);
+        width: 100%;
+        height: 30vh;
+        background-size: cover;
+        background-position: center;  
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .banner3 .banner-box2 {
+    background-image: url(../img/banner/b4\ Medium.jpeg);
+    }
+    
+    .banner3 .banner-box3 {
+        background-image: url(../img/banner/b18\ Medium.jpeg);
+    }
+
+    .newsletter .form {
+        display: flex;
+        width: 100%;
+        
+    }
+
  }
+
