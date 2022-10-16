@@ -664,8 +664,9 @@ footer h4{
     }
 
     .newsletter {
-         margin: 40px 0; 
-        padding: 40px 80px;
+        text-align: center;
+        margin: 20px 0; 
+        padding: 20px 40px;
     }
 
     .newsletter .form {
