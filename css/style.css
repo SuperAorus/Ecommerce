@@ -558,10 +558,16 @@ footer h4{
     #header {
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0;
     }
 
+     #navbar {
+        display: flex;
+
+        align-items: flex-start;
+     }
      #navbar li a{
-        
         font-size: 15px;
      }
 
