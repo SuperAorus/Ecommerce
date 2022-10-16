@@ -553,6 +553,14 @@ footer h4{
 
  /* Media querys */
 
+
+ @media (max-width: 540px) { 
+    #producto-1 .pro {
+        width: 100%;
+        min-width: 250px;
+    }
+
+ }
  @media (max-width: 767px) { 
 
     #header {
@@ -627,7 +635,7 @@ footer h4{
 
     
     #producto-1 .pro {
-        width: 100%;
+
         min-width: 250px;
         border: 1px solid #cce7d0;
         background-color: #FAF7F0;
