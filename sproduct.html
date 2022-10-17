@@ -37,7 +37,7 @@
         </div>
     </section>
 
-    <section id="prodetails" class="section-1">
+    <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
             <img src="/img/products/f1 Medium.webp" width="100%" id="MainImg" alt="imagen de producto">
             <div class="small-img-group">
@@ -71,10 +71,94 @@
 
             </select>
             <input type="number" value="1" min="1">
-            <button>Add To Cart</button>
+            <button class="normal">Add To Cart</button>
             <h4>Product Details</h4>
+            <span>The Gildon Ultra Cotton T-shirt is ma de from a substantial 6.0 oz per 
+                sq. yd. fabric constructed from 100% Cotton, this classic fit preshrunk
+                jersey knit provides unmatched comfort with each wear. Featuring a toped
+                neck and shoulder, and a seamless double-needle collar, and available in 
+                a range of colors, it offers it all in the ultimate head-turning package.
+            </span>
         </div>
-    </section>        
+    </section> 
+    
+    <section id="producto-1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Colletion New Morden Design</p>
+        <div class="pro-container"> 
+            <div class="pro">
+                <img src="img/products/n1.webp" alt="Imagen de Producto N">
+                <div class="des">
+                    <span>Product Name</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <h4>60$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+  
+            <div class="pro">
+                <img src="img/products/n2.webp" alt="Imagen de Producto N">
+                <div class="des">
+                    <span>Product Name</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <h4>60$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+  
+            <div class="pro">
+                <img src="img/products/n3.webp" alt="Imagen de Producto N">
+                <div class="des">
+                    <span>Product Name</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <h4>60$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+  
+            <div class="pro">
+                <img src="img/products/n4.webp" alt="Imagen de Producto N">
+                <div class="des">
+                    <span>Product Name</span>
+                    <h5>Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <h4>60$</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+  
+
+  
+  
+        </div>
+      </section>
 
     <section class="newsletter section-p1 section-m1">
 
@@ -173,6 +257,24 @@
       </div>
     </footer>
 
+    <script>
+        var MainImg = document.getElementById("MainImg")
+        var smallimg = document.getElementsByClassName("small-img")
+
+        smallimg[0].onclick = function(){
+            MainImg.src = smallimg[0].src
+        }
+        smallimg[1].onclick = function(){
+            MainImg.src = smallimg[1].src
+        }
+        smallimg[2].onclick = function(){
+            MainImg.src = smallimg[2].src
+        }
+        smallimg[3].onclick = function(){
+            MainImg.src = smallimg[3].src
+        }
+
+    </script>
     
  <script src="script.js"></script>
 </body>
