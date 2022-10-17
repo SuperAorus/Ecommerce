@@ -662,6 +662,7 @@ text-align: center;
     height: 47px;
     font-size: 16px;
     margin-right: 10px;
+    text-align: center;
 }
 
 #prodetails  .single-pro-details input:focus {
