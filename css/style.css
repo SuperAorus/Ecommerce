@@ -613,7 +613,20 @@ text-align: center;
  #prodetails .single-pro-image {
     width: 40%;
     margin-right: 50px;
+    
  }
+
+ .single-pro-image img {
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+    background-color: #FAF7F0; 
+ }
+
 
  .small-img-group {
     display: flex;
@@ -662,7 +675,7 @@ text-align: center;
 
 #prodetails  .single-pro-details span {
     line-height: 25px;
-    
+
 }
 
 
