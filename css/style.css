@@ -616,7 +616,7 @@ text-align: center;
     
  }
 
- .single-pro-image img {
+ /*.single-pro-image img {
     border: 1px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
@@ -626,6 +626,7 @@ text-align: center;
     position: relative;
     background-color: #FAF7F0; 
  }
+ */
 
 
  .small-img-group {
