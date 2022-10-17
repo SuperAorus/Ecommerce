@@ -576,13 +576,49 @@ footer h4{
     text-align: center;
     flex-direction: column;
     padding: 14px;
-
  }
 
  #page-header h2,
  #page-hader p  {
     color: #fff;
  }
+
+ #pagination {
+text-align: center;
+ }
+
+ #pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+ }
+
+ #pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+
+ }
+
+ /* Single Product */
+
+ #prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+ }
+
+ .small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
 
  /* Media querys */
 
