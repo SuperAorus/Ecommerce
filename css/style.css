@@ -599,7 +599,6 @@ text-align: center;
  #pagination a i {
     font-size: 16px;
     font-weight: 600;
-
  }
 
  /* Single Product */
@@ -922,8 +921,23 @@ text-align: center;
         margin-bottom: 20px;
     }
 
+    /*  Single Products */
 
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
 
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    
  }
 
