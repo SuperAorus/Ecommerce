@@ -991,16 +991,24 @@ text-align: center;
 
     #about-head img {
         width: 100%;
+        margin-top: 20px;
         margin-bottom: 20px;
+        padding: 20px;
     }
 
     #about-head div {
-        padding-left: 0px;
+        padding: 20px;
+    }
+
+    #about-app h1 {
+        font-size: 40px;
+        padding: 20px;
     }
 
     #about-app .video {
         width: 100%;
+        padding: 20px;  
     }
-    
+
  }
 
