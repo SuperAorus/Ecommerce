@@ -695,7 +695,11 @@ text-align: center;
     z-index: -9;
 }
 
+/* About page*/
 
+#page-header.about-header {
+    background-image: url(../img/about/banner\ Large.webp);
+}
 
 
 
