@@ -70,7 +70,7 @@ button.white {
 
 body {
     width: 100%;
-    background-color: #E4DCCF;  /*  #E4DCCF  */
+    background-color: #3C4048;  /*  #E4DCCF  */
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -81,7 +81,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 80px  ;
-    background-color: #E4DCCF; /* #E4DCCF */
+    background-color: #088178; /* #E4DCCF  #00ABB3 */
     box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.06);
     z-index: 999;
     position: sticky; 
@@ -111,7 +111,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active  {
-    color: #088178;
+    color: #fff;
 }
 
 #navbar li a.active::after,
@@ -119,7 +119,7 @@ body {
     content: "";
     width: 30%;
     height: 2px;
-    background-color: #088178;
+    background-color: #fff;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -222,7 +222,7 @@ body {
     margin: 15px 0;
     transition: 0.2s ease;
     position: relative;
-    background-color: #FAF7F0;  /* FAF7F0*/
+    background-color: #B2B2B2;  /* FAF7F0*/
 }
 
 #producto-1 .pro img {
@@ -263,14 +263,16 @@ body {
 }
 
 #producto-1 .pro a {
-    width: 40px;
+   /* width: 40px;
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
     background-color: #e8f6ea;
-    font-weight: 500;
-    color: #088178;
     border: 1px solid #cce7d0;
+    font-weight: 500;*/
+
+    color: #222;
+
     position: absolute;
     bottom: 20px;
     right: 10px;
@@ -577,6 +579,10 @@ text-align: center;
  #prodetails .single-pro-image {
     width: 40%;
     margin-right: 50px;   
+ }
+
+ #prodetails .single-pro-image .small-img-col {
+    margin-top: 5px;
  }
 
  .small-img-group {
@@ -1010,8 +1016,6 @@ text-align: center;
         padding: 20px;  
     }
 
-    #about-app .video video {
-            
-    }
+    
  }
 
