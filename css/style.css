@@ -749,11 +749,13 @@ text-align: center;
     width: 40%;
 }
 
-#contact-details .details span {
+#contact-details .details span,
+#form-details form span {
     font-size: 12px;
 }
 
-#contact-details .details h2 {
+#contact-details .details h2,
+#form-details form h2 {
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0 ;
@@ -797,8 +799,32 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
 } 
+
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #088178;
+}
+
+#form-details form button {
+    background-color: #088178;
+    color: #fff;
+}
+
+#form-details .people div{
+    padding-bottom: 25px;
+}
+
+#form-details .people div img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 25px;
+}
 
  /* Media querys */
 
