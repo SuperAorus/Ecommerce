@@ -937,7 +937,8 @@ text-align: center;
 
 }
 
-#coupon button {
+#coupon button,
+#subtotal button  {
     background-color: #088178;
     color: #fff;
     padding: 12px 20px;
@@ -966,7 +967,7 @@ text-align: center;
     font-size: 13px;
 }
 
-#subtotal 
+
 
 
 
@@ -995,6 +996,10 @@ text-align: center;
     #contact-details .map {
         width: 100%;
         padding: 20px;
+    }
+
+    #coupon {
+        width: 100%;
     }
  }
 
@@ -1298,6 +1303,26 @@ text-align: center;
         width: 100%;
         margin: 20px;
         
+    }
+
+    /* cart page*/
+
+    #cart {
+        overflow-x: auto;        
+    }
+
+    #cart-add {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    #cart-add #coupon {
+        width: 100%;
+    }
+
+    #cart-add #subtotal {
+        width: 100%;
+        padding: 20px;
     }
 
  }
