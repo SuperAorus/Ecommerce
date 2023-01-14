@@ -151,6 +151,32 @@ body {
     visibility: visible;
     opacity: 1;
 }
+
+/* submenu-user */
+#submenu-user li {
+    list-style: none;
+}
+#submenu-user {
+    position: absolute;
+    background: #E4DCCF;
+    padding: .7rem ;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s;
+
+}
+
+#submenu-user li a {
+    display: block;
+    padding: 15px;
+
+}
+
+
+#navbar li:hover #submenu-user {
+    visibility: visible;
+    opacity: 1;
+}
  
 #mobile {
     display: none;
@@ -183,6 +209,11 @@ body {
 
 #hero h4 {
     padding-bottom: 15px;
+    color: #fff;
+}
+
+#hero h2 {
+    color: #fff;
 }
 
 #hero button{
