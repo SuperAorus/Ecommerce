@@ -159,7 +159,6 @@ body {
 #submenu-user {
     position: absolute;
     background: #E4DCCF;
-    padding: .7rem ;
     visibility: hidden;
     opacity: 0;
     transition: opacity .5s;
@@ -169,6 +168,8 @@ body {
 #submenu-user li a {
     display: block;
     padding: 15px;
+    font-size: 1rem;
+
 
 }
 
