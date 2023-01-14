@@ -19,19 +19,33 @@
 <body>
 
     <section id="header">
-        <div>
+        <div >
             <ul id="navbar">
             <li> <a class="active" href="index.html">Home</a></li>
-            <li> <a href="shop.html" aria-label="Read more about Seminole index">Shop</a></li>
+            <li> <a href="shop.html" aria-label="Read more about Seminole index">Shop</a>
+              <ul id="submenu">
+                <li><a href="#" aria-label="Read more about Seminole contact">Hombre</a></li>
+                <li><a href="#" aria-label="Read more about Seminole contact">Mujer</a></li>
+                <li><a href="#" aria-label="Read more about Seminole contact">Accesorios</a></li>
+              </ul>
+            </li>
             <li> <a href="blog.html" aria-label="Read more about Seminole shop">Blog</a></li>
             <li> <a href="about.html" aria-label="Read more about Seminole about">About</a></li>
             <li> <a href="contact.html" aria-label="Read more about Seminole contact">Contact</a></li>
-            <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>  
+              
             <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </div>
 
+        <div>
+          <ul id="navbar">
+            <li id="lg-bag"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+          </ul>
+        </div>
+
         <div id="mobile">
+          <a href="#"><i class="fa-solid fa-user"></i></a>
           <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
           <i id="bar" class="fas fa-outdent"></i>
         </div>
@@ -43,7 +57,7 @@
         <h2>Super value deals</h2>
         <h1>On all products</h1>
         <p>Save more with coupons & up to 70% off!</p>
-        <button>Shop Now</button>
+        <button><a href="shop.html">Shop Now</a></button>
       </div>
     </section>
 
