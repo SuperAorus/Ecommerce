@@ -133,7 +133,7 @@ body {
 #submenu {
     position: absolute;
     background: #E4DCCF;
-    padding: .7rem ;
+    padding: .5rem ;
     visibility: hidden;
     opacity: 0;
     transition: opacity .5s;
@@ -162,13 +162,14 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: opacity .5s;
-
+    padding: .5rem  ;
 }
 
 #submenu-user li a {
     display: block;
     padding: 15px;
     font-size: 1rem;
+
 
 
 }
