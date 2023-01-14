@@ -133,6 +133,7 @@ body {
 #submenu {
     position: absolute;
     background: #E4DCCF;
+    padding: .5rem ;
     visibility: hidden;
     opacity: 0;
     transition: opacity .5s;
