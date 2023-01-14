@@ -79,7 +79,7 @@ body {
 #header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px 80px  ;
     background-color: #E4DCCF; /* #E4DCCF  #00ABB3 */
     box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.06);
@@ -92,7 +92,8 @@ body {
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
+      
 }
 
 #navbar li {
@@ -106,12 +107,12 @@ body {
     font-size: 20px;
     font-weight: 600;
     color: #1a1a1a;  
-    transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active  {
     color: #088178;
+    transition: all .3s;
 }
 
 #navbar li a.active::after,
@@ -123,6 +124,31 @@ body {
     position: absolute;
     bottom: -4px;
     left: 20px;
+}
+
+/* submenu */
+#submenu li {
+    list-style: none;
+}
+#submenu {
+    position: absolute;
+    background: #E4DCCF;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s;
+
+}
+
+#submenu li a {
+    display: block;
+    padding: 15px;
+
+}
+
+
+#navbar li:hover #submenu {
+    visibility: visible;
+    opacity: 1;
 }
  
 #mobile {
@@ -137,7 +163,8 @@ body {
 /* home */
 
 #hero {
-    background-image: url(../img/hero4.jpeg);
+    background-color: #000;
+    /* background-image: url(../img/hero5.jpg); */
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -167,6 +194,15 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+
+#hero button a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero button a:hover {
+    color: #088178;
 }
 
 #feature {
@@ -285,6 +321,9 @@ body {
     padding-top: 20px;
     flex-wrap: wrap;
 }
+
+
+
 
 .banner {
     display: flex;
