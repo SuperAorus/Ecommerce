@@ -101,11 +101,13 @@
     </section>
 
     <section id="form-details">
+      <form action="https://formspree.io/f/xnqrpwwq" method="POST">
+
       <form action="">
         <span>LEAVE MESSAGE</span>
         <H2>We love to hear from you</H2>
-        <input type="text" placeholder="Your Name ">
-        <input type="text" placeholder="E-mail">
+        <input type="text" placeholder="Your Name" id="name" required name="name">
+        <input type="text" placeholder="E-mail" id="email" pattern:="name@subdomain.com" required name="_replyto">
         <input type="text" placeholder="Subject">
         <textarea name="" id="" cols="30" rows="10" placeholder="Your Message "></textarea>
         <button class="normal">Submit</button>
