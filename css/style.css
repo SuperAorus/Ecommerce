@@ -126,60 +126,60 @@ body {
     left: 20px;
 }
 
+/* submenus media querys  */
 /* submenu */
+
+@media (min-width: 540px) {
 #submenu li {
     list-style: none;
 }
-#submenu {
-    position: absolute;
-    background: #E4DCCF;
-    padding: .5rem ;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .5s;
+    #submenu {
+        position: absolute;
+        background: #E4DCCF;
+        padding: .5rem ;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .5s;
 
+    }
+
+    #submenu li a {
+        display: block;
+        padding: 15px;
+    }
+
+    #navbar li:hover #submenu {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* submenu-user */
+
+    #submenu-user li {
+        list-style: none;
+    }
+    #submenu-user {
+        position: absolute;
+        background: #E4DCCF;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .5s;
+        padding: .5rem  ;
+    }
+
+    #submenu-user li a {
+        display: block;
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+
+    #navbar li:hover #submenu-user {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
-#submenu li a {
-    display: block;
-    padding: 15px;
-
-}
-
-
-#navbar li:hover #submenu {
-    visibility: visible;
-    opacity: 1;
-}
-
-/* submenu-user */
-#submenu-user li {
-    list-style: none;
-}
-#submenu-user {
-    position: absolute;
-    background: #E4DCCF;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .5s;
-    padding: .5rem  ;
-}
-
-#submenu-user li a {
-    display: block;
-    padding: 15px;
-    font-size: 1rem;
-
-
-
-}
-
-
-#navbar li:hover #submenu-user {
-    visibility: visible;
-    opacity: 1;
-}
- 
 #mobile {
     display: none;
     align-items: center;
@@ -1075,6 +1075,12 @@ text-align: center;
     #coupon {
         width: 100%;
     }
+
+    #submenu-user,
+    #submenu {
+        display: none;
+    }
+    
  }
 
  @media (max-width: 767px) { 
