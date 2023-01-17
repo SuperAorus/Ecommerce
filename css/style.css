@@ -70,7 +70,7 @@ button.white {
 
 body {
     width: 100%;
-    background-color: #E4DCCF;  /*  #E4DCCF  */
+    background-color: #FFF; /*#E4DCCF;*/  /*  #E4DCCF  */
     font-family: 'League Spartan', sans-serif;
 }
 
@@ -81,7 +81,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px  ;
-    background-color: #E4DCCF; /* #E4DCCF  #00ABB3 */
+    background-color: #227C70; /*#E4DCCF;*/ /* #E4DCCF  #00ABB3 */
     box-shadow: 0 5px 15px rgba( 0, 0, 0, 0.06);
     z-index: 999;
     position: sticky; 
@@ -111,7 +111,7 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active  {
-    color: #088178;
+    color: #fff; /*#088178;*/
     transition: all .3s;
 }
 
@@ -120,7 +120,7 @@ body {
     content: "";
     width: 30%;
     height: 2px;
-    background-color: #088178;
+    background-color: #fff; /*#088178;*/
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -135,7 +135,7 @@ body {
 }
     #submenu {
         position: absolute;
-        background: #E4DCCF;
+        background: #227C70; /* #E4DCCF;*/
         padding: .5rem ;
         visibility: hidden;
         opacity: 0;
@@ -160,7 +160,7 @@ body {
     }
     #submenu-user {
         position: absolute;
-        background: #E4DCCF;
+        background: #227C70; /*#E4DCCF; */
         visibility: hidden;
         opacity: 0;
         transition: opacity .5s;
@@ -287,18 +287,18 @@ body {
     min-width: 250px;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
-    border-radius: 25px;
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
     transition: 0.2s ease;
     position: relative;
-    background-color: #FAF7F0;  /* FAF7F0*/
+    background-color: #fff  /* FAF7F0*/
 }
 
 #producto-1 .pro img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #producto-1 .pro:hover {
