@@ -1297,6 +1297,10 @@ text-align: center;
 
     /*  Single Products */
 
+    #back {
+        margin: 20px;
+    }
+
     #prodetails {
         display: flex;
         flex-direction: column;
