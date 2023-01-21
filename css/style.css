@@ -165,6 +165,13 @@ body {
         visibility: visible;
         opacity: 1;
     }
+
+    /* button back */
+
+    button.normal1:hover {
+        color: #fff;
+    }
+
 }
 
 #mobile {
