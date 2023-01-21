@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -173,10 +175,14 @@ body {
 #close {
     display: none;
 }
+/* LOGO */
+
+#logo h1,span{
+    font-family: 'Kavoon', cursive;
+}
 #logo h1 {
     font-weight: 700;
     padding: 1rem;
-
 }
 
 #logo span {
